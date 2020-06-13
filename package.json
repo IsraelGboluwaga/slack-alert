@@ -1,0 +1,25 @@
+{
+    "name": "slack-alert",
+    "version": "1.0.0",
+    "description": "An application to send alerts to a slack channel from node app",
+    "main": "app.js",
+    "author": "Israel Arunah <israel.arunah@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IsraelGboluwaga/slack-alert.git"
+    },
+    "bugs": {
+        "url": "https://github.com/IsraelGboluwaga/slack-alert.git/issues"
+    },
+    "homepage": "https://github.com/IsraelGboluwaga/slack-alert#readme",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "@types/lodash": "^4.14.155",
+        "dotenv": "*",
+        "https": "^1.0.0",
+        "lodash": "^4.17.15"
+    }
+}
